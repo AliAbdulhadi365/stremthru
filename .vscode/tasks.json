@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "sdk/js",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - sdk/js",
+			"detail": "pkgroll --clean-dist --export-condition=node"
+		}
+	]
+}
